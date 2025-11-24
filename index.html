@@ -1447,6 +1447,25 @@
         loop:true,
       },
     });
+     
+document.querySelectorAll(".menuItemDivLinkSubmenu").forEach((item) => {
+  const subMenu = item.querySelector(".menuItemDivLinkSubmenuItem");
+  console.log(subMenu);
+  if (!subMenu) return;
+
+  item.addEventListener("mouseover", (e) => {
+    e.stopPropagation();
+    const rect = subMenu.getBoundingClientRect();
+
+    if (rect.right > window.innerWidth) {
+      subMenu.classList.remove("open-left");
+    }
+
+    if (rect.left < 0) {
+      subMenu.classList.add("open-left");
+    }
+  });
+});
   </script>
 </body>
 </html>
