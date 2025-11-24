@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --shabnam : shabnam;
+    --pernum : pernum;
+    border-radius: 10px;
+    --hovertext:#0a295a;
+    --black-16 : rgba(0 ,0 ,0 ,0.16);
+}
+
+.wraper{
+    width: 100;
+
+}
+@font-face {
+    font-family: shabnam;
+    src: url(./font/Shabnam-Bold-FD.woff);
+}
+@font-face {
+    font-family: shabnam;
+    src: url(./font/Shabnam-FD.woff);
+}
+@font-face {
+    font-family: shabnam;
+    src: url(./font/Shabnam-Medium-FD.woff);
+}
+@font-face {
+    font-family: shabnam;
+    src: url(./font/Shabnam.woff);
+}
+@font-face {
+    font-family: pernum;
+    src: url(../css/font/IRANSansWeb\(FaNum\)_Bold.eot);
+}
+@font-face {
+    font-family: pernum;
+    src: url(../css/font/IRANSansWeb\(FaNum\)_Bold.ttf);
+}
+@font-face {
+    font-family: pernum;
+    src: url(../css/font/IRANSansWeb\(FaNum\)_Bold.woff);
+}

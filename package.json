@@ -1,0 +1,25 @@
+{
+  "name": "poroje_web_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "swiper": "^12.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasaninastaran73-spec/dastresi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hasaninastaran73-spec/dastresi/issues"
+  },
+  "homepage": "https://github.com/hasaninastaran73-spec/dastresi#readme"
+}
